@@ -1,4 +1,4 @@
-import "./styles/styles.css";
+import "./styles/style.css";
 import { getWeatherBackground } from "./components/updateBackground";
 import { cleanWeatherAppHTML } from "./components/weatherAppHTML";
 import initDomElements from "./components/domElements";
