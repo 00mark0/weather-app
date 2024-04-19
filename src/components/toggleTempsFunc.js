@@ -127,6 +127,10 @@ export const toggleTempsFunc = (unit, elements, cheese) => {
     ? `L: ${cheese.forecast.forecastday[2].day.mintemp_c}°C`
     : `L: ${cheese.forecast.forecastday[2].day.mintemp_f}°F`;
 
+  elements.dayAfterTomorrowLow.textContent = unit
+    ? `H: ${cheese.forecast.forecastday[2].day.maxtemp_c}°C`
+    : `H: ${cheese.forecast.forecastday[2].day.maxtemp_f}°F`;
+
   elements.feelsLikeTemp.textContent = `Feels Like: ${
     unit ? `${cheese.current.feelslike_c}°C` : `${cheese.current.feelslike_f}°F`
   }`;
