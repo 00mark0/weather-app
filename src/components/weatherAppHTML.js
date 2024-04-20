@@ -4,15 +4,15 @@ export const weatherAppHTML = `
 <button id="findCityBtn" type="button"><i class="fas fa-bars"></i></button> 
         <div class="cityMenu" style="display: none;">
         <div class="cityMenuContainer">
-        <div class="closeBtn">
-            <button id="closeCityMenuBtn" type="button"><i class="fas fa-times"></i></button> 
-        </div> 
         <div class="addCities">
             <input id="addCityInput" type="text" placeholder="Add City">
             <button id="addCityBtn" type="button"><i class="fas fa-plus"></i></button> 
         </div>
         <div class="cityList"></div>
+        <div class="menuBtns">
         <button id="toggleUnitBtn" type="button">°C</button>
+         <button id="closeCityMenuBtn" type="button"><i class="fas fa-check"></i></button> 
+        </div>
     </div>
     </div>
     <div class="weatherContainer">

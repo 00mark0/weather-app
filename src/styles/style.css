@@ -83,24 +83,6 @@
   transform: scale(1.1);
 }
 
-#closeCityMenuBtn {
-  font-size: 1.5rem;
-  border: none;
-  border-radius: 50%;
-  padding: 5px;
-  cursor: pointer;
-  color: #fff;
-  background-color: #2e95e2;
-  transition: transform 0.3s ease;
-  position: absolute;
-  top: 10px;
-  right: 10px;
-}
-
-#closeCityMenuBtn:hover {
-  transform: scale(1.1);
-}
-
 .cityList {
   display: flex;
   flex-direction: column;
@@ -182,6 +164,28 @@
 }
 
 #toggleUnitBtn:hover {
+  transform: scale(1.1);
+}
+
+.menuBtns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#closeCityMenuBtn {
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #2e95e2;
+  transition: transform 0.3s ease;
+}
+
+#closeCityMenuBtn:hover {
   transform: scale(1.1);
 }
 
